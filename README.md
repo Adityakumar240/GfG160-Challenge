@@ -54,3 +54,24 @@ Easy
 
 Day 18 - Search Pattern (KMP-Algorithm)
 Medium
+
+Day 19 - Min Chars to Add for Palindrome
+Hard
+
+Day 20 - Strings Rotations of Each Other
+Easy
+
+Day 21 - Sort 0s, 1s and 2s
+Easy
+
+Day 22 - Find H-Index
+Medium
+
+Day 23 - Count Inversions
+Medium
+
+Day 24 - Overlapping Intervals
+Medium
+
+Day 25 - Insert Interval
+Medium
