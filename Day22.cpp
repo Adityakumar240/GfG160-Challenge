@@ -21,6 +21,9 @@ int hIndex(vector<int>& citations) {
     return citations.size();
 }
 
+
+
+// Approach 2 - Time complexity O(n) and space complexity O(n)
 int hIndex2(vector<int>& citations){
 
     int n = citations.size();
