@@ -4,7 +4,7 @@
 using namespace std;
 
 
-// Brute force approach
+// Brute force approach - Time complexity: O(n square)
 vector<vector<int>> bruteForceMerge(vector<vector<int>> &intervals, vector<int> newInterval){
     // Step 1: Insert the new interval
     intervals.push_back(newInterval);
@@ -31,7 +31,7 @@ vector<vector<int>> bruteForceMerge(vector<vector<int>> &intervals, vector<int> 
     return intervals;
 }
 
-// Efficient approach
+// Efficient approach - Time complexity: O(nlogn)
 vector<vector<int>> insertAndMergeIntervals(vector<vector<int>> &intervals, vector<int> newInterval){
     // Step 1: Insert the new interval
     intervals.push_back(newInterval);
@@ -51,7 +51,7 @@ vector<vector<int>> insertAndMergeIntervals(vector<vector<int>> &intervals, vect
     return result;
 }
 
-// Optimized approach
+// Optimized approach - Time complexity: O(n)
 vector<vector<int>> insertInterval(vector<vector<int>> &intervals, vector<int> &newInterval) {
     vector<vector<int>> result;
     int i = 0, n = intervals.size();
