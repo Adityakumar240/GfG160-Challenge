@@ -12,7 +12,7 @@ int removeOverlapIntervals(vector<vector<int>>& intervals){
 
     int count = 0;
     int end = intervals[0][1];  // Initialize the end point of the first interval
-    for(int i = 0; i < n; i++){
+    for(int i = 1; i < n; i++){
 
         // If the current starting point is less than the previous interval's ending point then there is an overlap
         if( end > intervals[i][0]){
